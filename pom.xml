@@ -42,12 +42,19 @@
 			<version>2.0.0</version>
 		</dependency>
 
-		<!--mybatis-->
+		<!--mysql的驱动-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.12</version>
+		</dependency>
+
+		<!--mybatis-->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
